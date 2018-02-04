@@ -17,12 +17,12 @@
   <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
 
 
-<form action="login" method="post">
+<form action="{:url('index/index/register')}" method="post">
   <h4> Login Information </h4>
   <input class="name" type="text" name="user_name" placeholder="Enter Username"/>
   <input class="pw" type="password" name="user_pass" placeholder="Enter Password"/>
-  <li><a href="{:url('index/index/registershow')}">Forgot your password?</a></li>
-  <input class="button" type="submit" value="Log in"/>
+  <input class="pw" type="password" name="surepass" placeholder="Sure Password"/>
+  <input class="button" type="submit" value="register in"/>
 </form>
   
   
