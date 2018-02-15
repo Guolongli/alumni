@@ -7,12 +7,13 @@ namespace app\index\model;
  * Time: 22:41
  */
 
-interface Handler
+interface HandlerInterface
 {
-    public function initiateCircle();
-    //发起圈子
-    public function joinCircle();
+    //创建圈子
+    public function createCircle();
     //加入圈子
+    function joinCircle();
+    //退出圈子
     public function exitCircle();
     //退出圈子
     public function showPro();

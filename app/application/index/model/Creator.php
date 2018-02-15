@@ -9,28 +9,12 @@
 namespace app\index\model;
 
 
-class Creator extends HandlerPro
+class Creator extends HandlerOb implements CreatorInterface
 {
-    //创建者,对于项目进行管理
-    public function __construct(Handler $object)
+    function addition()
     {
-        $this->object=$object;
+        // TODO: Implement addition() method.
     }
 
-    public function createPro()
-    {
-        //创建项目(图片墙,事件,活动,圈子)
-        $this->object->create();
-    }
-
-    public function editPro()
-    {
-        //编辑项目
-    }
-
-    public function delPro()
-    {
-
-    }
 
 }

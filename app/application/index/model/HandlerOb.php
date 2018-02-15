@@ -7,14 +7,14 @@ namespace app\index\model;
  * Time: 11:51
  */
 
-class HandlerPro implements Handler
+class HandlerOb implements HandlerInterface
 {
     public function exitCircle()
     {
         // TODO: Implement exitCircle() method.
 
     }
-    public function initiateCircle()
+    public function createCircle()
     {
         // TODO: Implement initiateCircle() method.
     }

@@ -11,7 +11,7 @@ use think\Model;
  * Date: 2018/2/8
  * Time: 23:02
  */
-class EventPro extends Model
+class EventOb implements ObjectInterface
 {
     public function __construct($eventId = null)
     {
